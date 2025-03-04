@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* Based on the spec picture we should be taking up the entire screen here */
+}
+
+#imSide {
+    background-image: url(/assets/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-color: black;
+    height: 100%;
+    width: 37%;
+    /* Rough calculation from measuring image with rulers... obviously I could customize but eh */
+}
