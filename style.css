@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse;
+    src: url(./assets/font/Norse-Bold.otf);
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -29,6 +34,11 @@
 
 .splash>img {
     max-width: 5em;
+}
+
+.splash h1 {
+    font-family: Norse, sans-serif;
+    font-size: 5rem;
 }
 
 .credit {
