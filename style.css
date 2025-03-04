@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     width: 100vw;
@@ -6,8 +12,8 @@
 }
 
 #imSide {
-    background-image: url(/assets/img/halie-west-25xggax4bSA-unsplash.jpg);
-    background-color: black;
+    background-image: url(./assets/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-color: white;
     height: 100%;
     width: 37%;
     /* Rough calculation from measuring image with rulers... obviously I could customize but eh */
