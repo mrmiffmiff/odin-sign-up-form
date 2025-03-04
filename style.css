@@ -7,6 +7,7 @@
     display: flex;
     height: 100vh;
     /* Based on the spec picture we should be taking up the entire screen here */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .imSide {
@@ -85,8 +86,32 @@ form div p {
     flex-direction: column;
 }
 
+input {
+    border-color: #E5E7EB;
+}
+
+.pass:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+    outline-color: blue;
+    box-shadow: 0 2px 2px black;
+}
+
 .create {
     position: relative;
     top: 80px;
     left: 5px;
+    background-color: #596D48;
+    border-radius: 10px;
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.login a {
+    text-decoration: none;
+    color: #596D48;
 }
