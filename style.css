@@ -14,7 +14,6 @@
 .imSide {
     background-image: url(./assets/img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    /*background-repeat: no-repeat;*/
     background-color: white;
     height: 100%;
     width: 37%;
@@ -24,8 +23,18 @@
     justify-content: center;
 }
 
+.splash {
+    display: flex;
+    flex-direction: column;
+}
+
 .credit {
     align-self: flex-end;
+}
+
+a:link,
+a:visited {
+    color: white;
 }
 
 .formSide {
