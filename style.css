@@ -11,10 +11,24 @@
     /* Based on the spec picture we should be taking up the entire screen here */
 }
 
-#imSide {
+.imSide {
     background-image: url(./assets/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
     background-color: white;
     height: 100%;
     width: 37%;
     /* Rough calculation from measuring image with rulers... obviously I could customize but eh */
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.credit {
+    align-self: flex-end;
+}
+
+.formSide {
+    height: 100%;
+    width: auto;
 }
