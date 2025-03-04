@@ -42,12 +42,14 @@
     bottom: 0;
 }
 
-a:link,
-a:visited {
+.credit a {
     color: white;
 }
 
 .formSide {
     height: 100%;
-    width: auto;
+    width: calc(100vw - 37vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
